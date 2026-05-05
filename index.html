@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Caculator</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <h2 class="app-title">Calculate You Montly Attendance</h2>
+        <form>
+            <label for="total-working-day">
+                <p>Enter Total Working Day</p>
+                <input required id="total-working-day" type="number" placeholder="total working day">
+            </label>
+            <label for="total-students">
+                <p>Enter the Total Students in Class</p>
+                <input required id="total-students" type="number" placeholder="total student">
+            </label>
+            <label for="total-absent">
+                <p>Enter the Total Absent Day</p>
+                <input requireds id="total-absent" type="number" placeholder="total absent day">
+            </label>
+            <button>Caculate</button>
+        </form>
+
+        <div class="calculation">
+            <h3>Total Present Day: <p id="total-present-day-display"></p>
+            </h3>
+            <h3>Average Daily Attendace: <p id="average-daily-display"></p>
+            </h3>
+            <h3>Percentage of Attendace: <p id="percentage-of-attendace-display"></p>
+            </h3>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <h2 class="footer-name">Nitesh Kumar Gosai</h2>
+            <p class="footer-tagline">
+                Building cool stuff with code ⚡ | Learning something new every day
+            </p>
+
+            <div class="footer-links">
+                <a href="https://github.com/theniteshdev" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/nitesh-kumar-gosai-b734153a6/" target="_blank">LinkedIn</a>
+                <a target="_blank" href="https://x.com/theniteshdev">Twitter</a>
+                <a href="mailto:0911nitesh@gmail.com">Email</a>
+            </div>
+
+            <p class="footer-copy">
+                © 2026 Nitesh Kumar Gosai. Made with lots of debugging 🐞
+            </p>
+
+        </div>
+    </footer>
+</body>
+
+</html>
